@@ -21,7 +21,7 @@ let count = 0;
 document.getElementById("quote").innerHTML = arr[count];
 
 function changeQuote() {
-	 if (count >= 15) { count = 0 };
+	 if (count == 15) { count = 0 };
 	 document.getElementById("quote").innerHTML = arr[count++];
 };
 
